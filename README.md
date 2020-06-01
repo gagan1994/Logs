@@ -53,6 +53,7 @@ dependencies {
 Inside `onCreate` of Application class or Launcher Activity.
 
         LogWrapper.initilize(this,"{TOKEN}");
+	LogWrapper.initilize(this,realm,"{TOKEN}")
 
 
 ## Usage
