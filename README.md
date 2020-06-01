@@ -54,7 +54,7 @@ Inside `onCreate` of Application class or Launcher Activity.
 
         LogWrapper.initilize(this,"{TOKEN}");
 
-```
+
 ## Usage
 ```
 String message = "Log message";
@@ -99,10 +99,10 @@ Custom Log Message Format example
 4. Above created class instance then needs to be passed while initializing `AwsWrapper` or can be set later.
 ```
         LogWrapper.withLogForamat(new CustomLogMessageFormat(this));
-        
-```
+   ```
+     
 ## Additional Methods
-* Different types of log.
+ Different types of log.
 ```
 LogWrapper.logD(TAG,"debug");
 LogWrapper.logI(information");
