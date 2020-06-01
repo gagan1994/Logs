@@ -58,7 +58,7 @@ Inside `onCreate` of Application class or Launcher Activity.
 ## Usage
 ```
 String message = "Log message";
-awsWrapper.logI(message);
+LogWrapper.logI(message);
                 
 ```
 ## Custom Log Message Format
